@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="column left">
+        <p> Playback Speed: <span id="curSpeed"></span></p>
+      </div>
+      <div class="column right">
+        
+      </div>
+    </div>
+    <div class="buttonContainer">
+      <input type="range" min="-1000" max="1000" value="0" class="slider" id="speedSlider">
+    </div>
+    <div class="buttonContainer">
+      <button class = "presets" value = 0.25>0.25</button>
+      <button class = "presets" value = 0.5>0.5</button>
+      <button class = "presets" value = 0.75>0.75</button>
+      <button class = "presets" value = 1>1</button>
+      <button class = "presets" value = 1.5>1.5</button>
+      <button class = "presets" value = 1.75>1.75</button>
+      <button class = "presets" value = 2>2</button>
+    </div>
+    <script src="popup.js"></script>
+
+  </body>
+</html>
+
